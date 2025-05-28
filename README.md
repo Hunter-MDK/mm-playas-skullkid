@@ -1,3 +1,24 @@
+# Play as Skullkid
+![image](https://i.imgur.com/TQhd5F1.png)
+### Compatibility
+* Should be compatible with all texture packs, it uses the textures from object_stk and uses very similar UV's
+* As far as other mods that mess with display lists: No idea lol, let me know if something breaks
+
+### Changes
+* Replaces Link and his elegy statue with Skullkid
+* Replaces both shields with a transparent alternative
+* Replaces the Ocarina model with Skullkid's flute
+
+### Masks
+* Most masks decently fit, the bunny hood and great fairy mask look pretty busted
+* Garo and All-Night masks don't fit well: will likely be fixed in the future
+
+Special thanks to the [Play As CJ mod](https://thunderstore.io/c/zelda-64-recompiled/p/Reonu/Play_as_CJ/) for having very stealable code. :)
+
+
+
+
+
 # Majora's Mask: Recompiled Mod Template
 
 This is an example mod for Majora's Mask: Recompiled that can be used as a template for creating mods. It has a basic build system, headers, sample code, and a mod config toml.
