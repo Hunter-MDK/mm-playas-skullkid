@@ -1970,6 +1970,19 @@ Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
+Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[4] = {
+	{{ {340, -450, 192}, 0, {-16, 508}, {241, 126, 0, 255} }},
+	{{ {270, -458, 192}, 0, {-16, -4}, {241, 126, 0, 255} }},
+	{{ {270, -458, 262}, 0, {496, -4}, {241, 126, 0, 255} }},
+	{{ {340, -450, 262}, 0, {496, 508}, {241, 126, 0, 255} }},
+};
+
+Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 0, 4, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSPEndDisplayList(),
+};
+
 Gfx mat_gLinkHumanSkel_f3dlite_material_415_layerOpaque[] = {
 	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
@@ -2383,6 +2396,12 @@ Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque[] = {
 	gsSPEndDisplayList(),
 };
 
+Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gLinkHumanSkel_f3dlite_material_414_layerOpaque),
+	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0),
+	gsSPEndDisplayList(),
+};
+
 StandardLimb gLinkHumanSkelLimb_000 = { { 0, 0, 2356 }, 1, 255, NULL };
 StandardLimb gLinkHumanSkelLimb_001 = { { -4, -104, 0 }, 2, 9, gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque };
 StandardLimb gLinkHumanSkelLimb_002 = { { 607, 0, 0 }, 3, 255, NULL };
@@ -2403,7 +2422,7 @@ StandardLimb gLinkHumanSkelLimb_016 = { { 696, -175, -466 }, 17, 19, gLinkHumanS
 StandardLimb gLinkHumanSkelLimb_017 = { { 577, 0, 0 }, 18, 255, gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque };
 StandardLimb gLinkHumanSkelLimb_018 = { { 525, 0, 0 }, 255, 255, gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque };
 StandardLimb gLinkHumanSkelLimb_019 = { { 657, -550, 367 }, 255, 20, gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_020 = { { 0, 0, 0 }, 255, 255, NULL };
+StandardLimb gLinkHumanSkelLimb_020 = { { 0, 0, 0 }, 255, 255, gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque };
 
 void* gLinkHumanSkelLimbs[21] = {
 	&gLinkHumanSkelLimb_000,
@@ -2429,5 +2448,5 @@ void* gLinkHumanSkelLimbs[21] = {
 	&gLinkHumanSkelLimb_020,
 };
 
-FlexSkeletonHeader gLinkHumanSkel = { gLinkHumanSkelLimbs, 21, 17 };
+FlexSkeletonHeader gLinkHumanSkel = { gLinkHumanSkelLimbs, 21, 18 };
 
