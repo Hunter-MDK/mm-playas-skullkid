@@ -15,6 +15,22 @@
 #include "gElegyShellHumanDL_mesh.h"
 #include "object_mask_bree_DL_0003C0_mesh.h"
 #include "gLinkHumanMirrorShieldDL_mesh.h"
+#include "object_mask_yofukasi_DL_000490_mesh.h"
+#include "object_mask_posthat_DL_000290_mesh.h"
+#include "object_mask_json_DL_0004C0_mesh.h"
+#include "object_mask_dancer_DL_000EF0_mesh.h"
+#include "object_mask_bu_san_DL_000710_mesh.h"
+#include "object_mask_skj_DL_0009F0_mesh.h"
+#include "object_mask_gibudo_DL_000250_mesh.h"
+#include "gDonGeroMaskDL_mesh.h"
+#include "gKafeisMaskDL_mesh.h"
+#include "object_mask_meoto_DL_0005A0_mesh.h"
+#include "object_mask_romerny_DL_0007A0_mesh.h"
+#include "object_mir_ray_DL_0004B0_mesh.h"
+#include "object_mir_ray_DL_000168_mesh.h"
+
+
+
 
 // Original set of DLs and Textures we're replacing
 extern Gfx* gPlayerWaistDLs[2 * PLAYER_FORM_MAX];
@@ -58,6 +74,7 @@ extern Gfx* gPlayerHandHoldingShields[];
 extern Gfx* D_801C018C[];
 
 
+
 // Manual DL replacements for equipment and hands
 extern Gfx gLinkHumanRightHandOpenDL[];
 extern Gfx gLinkHumanLeftHandClosedDL[];
@@ -70,10 +87,22 @@ extern Gfx gLinkHumanLeftHandHoldBottleDL[];
 extern Gfx object_link_child_DL_018490[]; // 1st person bow model 
 extern Gfx object_link_child_DL_017B40[]; //1st person hookshot model
 extern Gfx gElegyShellHumanDL[];
-extern Gfx object_mask_bree_DL_0003C0[];
 extern Gfx* D_801C0B20[]; // mask array | contents at line 2714 in z_player_lib.c
-extern Gfx gLinkHumanMirrorShieldDL[];
-
+extern Gfx object_mask_bree_DL_0003C0[];
+extern Gfx object_mask_yofukasi_DL_000490[];
+extern Gfx object_mask_posthat_DL_000290[];
+extern Gfx object_mask_json_DL_0004C0[];
+extern Gfx object_mask_dancer_DL_000EF0[];
+extern Gfx object_mask_bu_san_DL_000710[];
+extern Gfx object_mask_skj_DL_0009F0[];
+extern Gfx object_mask_gibudo_DL_000250[];
+extern Gfx gDonGeroMaskDL[];
+extern Gfx gKafeisMaskDL[];
+extern Gfx object_mask_meoto_DL_0005A0[];
+extern Gfx object_mask_romerny_DL_0007A0[];
+extern Gfx object_mir_ray_DL_0004B0[];
+extern Gfx object_mir_ray_DL_000168[];
+extern u8 sPlayerFormOcarinaInstruments[];
 
 
 
@@ -96,7 +125,43 @@ RECOMP_HOOK("Player_Init") void on_Player_Init(Actor* thisx, PlayState* play) {
     gPlayerLeftHandOpenDLs[PLAYER_FORM_HUMAN * 2 + 1] = gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque;
     gPlayerLeftHandClosedDLs[PLAYER_FORM_HUMAN * 2 + 0] = gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque;
     gPlayerLeftHandClosedDLs[PLAYER_FORM_HUMAN * 2 + 1] = gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque;
-    D_801C0B20[16] = object_mask_bree_DL_0003C0_mesh;
+    sPlayerFormOcarinaInstruments[0] = OCARINA_INSTRUMENT_WHISTLING_FLUTE;
+    sPlayerFirstPersonRightShoulderDLs[4] = gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque;
+    sPlayerFirstPersonLeftForearmDLs[4] = gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque;
+    
+
+
+    // Mask replacements, found in z_player_lib.c
+
+    // object_mask_truth_DL_0001A0,    // PLAYER_MASK_TRUTH
+    D_801C0B20[1] = gKafeisMaskDL_mesh;                  // PLAYER_MASK_KAFEIS_MASK
+    D_801C0B20[2] = object_mask_yofukasi_DL_000490_mesh; // PLAYER_MASK_ALL_NIGHT
+    // object_mask_rabit_DL_000610,    // PLAYER_MASK_BUNNY
+    // object_mask_ki_tan_DL_0004A0,   // PLAYER_MASK_KEATON
+    D_801C0B20[5] = object_mask_json_DL_0004C0_mesh;    // PLAYER_MASK_GARO
+    D_801C0B20[6] = object_mask_romerny_DL_0007A0_mesh;
+    // object_mask_zacho_DL_000700,    // PLAYER_MASK_CIRCUS_LEADER
+    D_801C0B20[8] = object_mask_posthat_DL_000290_mesh;  // PLAYER_MASK_POSTMAN
+    D_801C0B20[9] = object_mask_meoto_DL_0005A0_mesh;    // PLAYER_MASK_COUPLE
+    // object_mask_bigelf_DL_0016F0,   // PLAYER_MASK_GREAT_FAIRY
+    D_801C0B20[11] = object_mask_gibudo_DL_000250_mesh;   // PLAYER_MASK_GIBDO
+    D_801C0B20[12] = gDonGeroMaskDL_mesh;                 // PLAYER_MASK_DON_GERO
+    D_801C0B20[13] = object_mask_dancer_DL_000EF0_mesh;   // PLAYER_MASK_KAMARO
+    D_801C0B20[14] = object_mask_skj_DL_0009F0_mesh;      // PLAYER_MASK_CAPTAIN
+    // object_mask_stone_DL_000820,    // PLAYER_MASK_STONE
+    D_801C0B20[16] = object_mask_bree_DL_0003C0_mesh;     // PLAYER_MASK_BREMEN
+    // object_mask_bakuretu_DL_0005C0, // PLAYER_MASK_BLAST
+    D_801C0B20[18] = object_mask_bu_san_DL_000710_mesh;   // PLAYER_MASK_SCENTS
+    // object_mask_kyojin_DL_000380,   // PLAYER_MASK_GIANT
+    // gFierceDeityMaskDL,             // PLAYER_MASK_FIERCE_DEITY
+    // gGoronMaskDL,                   // PLAYER_MASK_GORON
+    // gZoraMaskDL,                    // PLAYER_MASK_ZORA
+    // gDekuMaskDL,                    // PLAYER_MASK_DEKU
+    // object_mask_boy_DL_000900,
+    // object_mask_goron_DL_0014A0,
+    // object_mask_zora_DL_000DB0,
+    // object_mask_nuts_DL_001D90,
+
 }
 
 
@@ -104,131 +169,82 @@ RECOMP_HOOK("Player_Init") void on_Player_Init(Actor* thisx, PlayState* play) {
 
 
 DECLARE_ROM_SEGMENT(object_link_child);
+DECLARE_ROM_SEGMENT(object_mir_ray);
 
 void* gRam;
 uintptr_t gVrom;
+size_t gSize;
 RECOMP_HOOK("DmaMgr_ProcessRequest") void on_DmaMgr_RequestSync(DmaRequest* req) {
     gRam = req->dramAddr;
     gVrom = req->vromAddr;
+    gSize = req->size;
 }
+
+void DL_Swap(Gfx* Orig_DL, Gfx* New_DL) {
+        uintptr_t old_segment_6 = gSegments[0x06];
+        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
+        Gfx* to_patch = Lib_SegmentedToVirtual(Orig_DL);
+        gSPBranchList(to_patch , New_DL);
+        gSegments[0x06] = old_segment_6;
+}
+
+
+
+
 
 
 RECOMP_HOOK_RETURN("DmaMgr_ProcessRequest") void after_dma() {
 
     if (gVrom == SEGMENT_ROM_START(object_link_child)) {
 
-        Gfx* Orig_DL = gLinkHumanRightHandOpenDL;
-        Gfx* New_DL = gLinkHumanRightHandOpenDL_mesh;
-//////// Upper: Inits Gfx vars | Lower: Actual code that replaces DLs
-        uintptr_t old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        Gfx* to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-        Orig_DL = gLinkHumanGreatFairysSwordDL;
-        New_DL = gLinkHumanGreatFairysSwordDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-        Orig_DL = gLinkHumanLeftHandClosedDL;
-        New_DL = gLinkHumanLeftHandClosedDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-        Orig_DL = gLinkHumanRightHandClosedDL;
-        New_DL = gLinkHumanRightHandClosedDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-        Orig_DL = gLinkHumanRightHandHoldingOcarinaDL;
-        New_DL = gLinkHumanRightHandHoldingOcarinaDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = gLinkHumanHerosShieldDL;
-        New_DL = gLinkHumanHerosShieldDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = gLinkHumanMirrorShieldDL;
-        New_DL = gLinkHumanHerosShieldDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = gLinkHumanLeftHandHoldBottleDL;
-        New_DL = gLinkHumanLeftHandHoldBottleDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = object_link_child_DL_018490;        // 1st Person Bow model, right hand specifically object_link_child_DL_017B400
-        New_DL = object_link_child_DL_018490_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = object_link_child_DL_017B40;        // 1st Person hookshot model, right hand specifically 
-        New_DL = object_link_child_DL_017B40_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = gElegyShellHumanDL;
-        New_DL = gElegyShellHumanDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
-       Orig_DL = gLinkHumanMirrorShieldDL;
-        New_DL = gLinkHumanMirrorShieldDL_mesh;
-        old_segment_6 = gSegments[0x06];
-        gSegments[0x06] = OS_K0_TO_PHYSICAL(gRam);
-        to_patch = Lib_SegmentedToVirtual(Orig_DL);
-        gSPBranchList(to_patch , New_DL);
-        gSegments[0x06] = old_segment_6;
-///////////////////////////////////////////////
+        DL_Swap(gLinkHumanRightHandOpenDL, gLinkHumanRightHandOpenDL_mesh);
+        DL_Swap(gLinkHumanGreatFairysSwordDL, gLinkHumanGreatFairysSwordDL_mesh);
+        DL_Swap(gLinkHumanLeftHandClosedDL, gLinkHumanLeftHandClosedDL_mesh);
+        DL_Swap(gLinkHumanRightHandClosedDL, gLinkHumanRightHandClosedDL_mesh);
+        DL_Swap(gLinkHumanRightHandHoldingOcarinaDL, gLinkHumanRightHandHoldingOcarinaDL_mesh);
+        DL_Swap(gLinkHumanHerosShieldDL, gLinkHumanHerosShieldDL_mesh);
+        DL_Swap(gLinkHumanMirrorShieldDL, gLinkHumanMirrorShieldDL_mesh);
+        DL_Swap(gLinkHumanLeftHandHoldBottleDL, gLinkHumanLeftHandHoldBottleDL_mesh);
+        DL_Swap(object_link_child_DL_018490, object_link_child_DL_018490_mesh);
+        DL_Swap(object_link_child_DL_017B40, object_link_child_DL_017B40_mesh);
+        DL_Swap(gElegyShellHumanDL, gElegyShellHumanDL_mesh);
 
-    gVrom = 0;
-    gRam = NULL;
+        gVrom = 0;
+        gRam = NULL;
 
     }
+
+    if (gVrom == SEGMENT_ROM_START(object_mir_ray)) {
+
+        DL_Swap(object_mir_ray_DL_0004B0, object_mir_ray_DL_0004B0_mesh);
+        DL_Swap(object_mir_ray_DL_000168, object_mir_ray_DL_000168_mesh);
+
+        gVrom = 0;
+        gRam = NULL;
+
+    }
+
+        if (gVrom == SEGMENT_ROM_START(object_mir_ray)) {
+
+        DL_Swap(object_mir_ray_DL_0004B0, object_mir_ray_DL_0004B0_mesh);
+
+        gVrom = 0;
+        gRam = NULL;
+
+    }
+
+
 }
 
 
 
 
 
-#define MASK_SCALE_MODIFIER 1.25f
-#define MASK_DOWNWARDS_OFFSET 300.f
-#define BUNNY_DOWNWARDS_OFFSET 150.f
-#define MASK_FORWARDS_OFSSEET 150.f
+
+#define MASK_SCALE_MODIFIER 1.0f
+#define MASK_DOWNWARDS_OFFSET 250.f
+#define BUNNY_DOWNWARDS_OFFSET 400.f
+#define MASK_FORWARDS_OFSSEET 200.f
 #define MASK_LATERAL_OFFSET 0.f
 u8 gPushedMatrix;
 extern Gfx* D_801C0B20[];
@@ -264,6 +280,8 @@ RECOMP_HOOK_RETURN("Player_PostLimbDrawGameplay") void return_Player_PostLimbDra
     }
     gPushedMatrix = 0;
 }
+
+
 
 
 
@@ -303,4 +321,44 @@ RECOMP_PATCH void Player_DrawBunnyHood(PlayState* play) {
     Matrix_Pop();
 
     CLOSE_DISPS(play->state.gfxCtx);
+}
+
+
+
+
+
+
+
+
+
+#include "gLinkHumanSkelCustom_okarina_startAnim.h"
+#include "gLinkHumanSkelCustom_okarina_swingAnim.h"
+#include "gLinkHumanSkelCustom_okarina_walkAnim.h"
+#include "gLinkHumanSkelCustom_okarina_walkbAnim.h"
+
+
+
+extern LinkAnimationHeader gPlayerAnim_link_normal_okarina_start[];
+extern LinkAnimationHeader gPlayerAnim_link_normal_okarina_swing[];
+extern LinkAnimationHeader gPlayerAnim_clink_normal_okarina_walk[];
+extern LinkAnimationHeader gPlayerAnim_clink_normal_okarina_walkB[];
+extern LinkAnimationHeader gPlayerAnim_alink_dance_loop[];
+
+void updateLink(PlayState* play) {
+    Player* player = GET_PLAYER(play);
+    if (player->transformation == PLAYER_FORM_HUMAN) {
+        *(LinkAnimationHeader*)Lib_SegmentedToVirtual(&gPlayerAnim_link_normal_okarina_start) = gLinkHumanSkelCustom_okarina_startAnim;
+        *(LinkAnimationHeader*)Lib_SegmentedToVirtual(&gPlayerAnim_link_normal_okarina_swing) = gLinkHumanSkelCustom_okarina_swingAnim;          
+        *(LinkAnimationHeader*)Lib_SegmentedToVirtual(&gPlayerAnim_clink_normal_okarina_walk) = gLinkHumanSkelCustom_okarina_walkAnim;
+        *(LinkAnimationHeader*)Lib_SegmentedToVirtual(&gPlayerAnim_clink_normal_okarina_walkB) = gLinkHumanSkelCustom_okarina_walkbAnim;
+        
+
+    }
+}
+
+
+
+RECOMP_CALLBACK("*", recomp_on_play_main)
+void mainUpdate(PlayState* play) {
+    updateLink(play);
 }

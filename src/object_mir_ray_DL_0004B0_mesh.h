@@ -1,0 +1,6 @@
+extern u64 object_mir_ray_DL_0004B0_mesh_swap_majora_i8_i8[];
+extern Vtx object_mir_ray_DL_0004B0_mesh_object_mir_ray_DL_0004B0_mesh_mesh_vtx_cull[8];
+extern Vtx object_mir_ray_DL_0004B0_mesh_object_mir_ray_DL_0004B0_mesh_mesh_vtx_0[45];
+extern Gfx object_mir_ray_DL_0004B0_mesh_object_mir_ray_DL_0004B0_mesh_mesh_tri_0[];
+extern Gfx mat_object_mir_ray_DL_0004B0_mesh_f3dlite_material_201_layerOpaque[];
+extern Gfx object_mir_ray_DL_0004B0_mesh[];

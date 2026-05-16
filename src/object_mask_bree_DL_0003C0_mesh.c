@@ -1,7 +1,57 @@
 #include "ultra64.h"
 #include "global.h"
 
-u64 object_mask_bree_DL_0003C0_mesh_tex_000D98_rgba16_png_001_rgba16[] = {
+u64 object_mask_bree_DL_0003C0_mesh_tex_000858_ci8_png_002_ci8[] = {
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0102020100000000, 0x0000000000000000, 
+	0x0000000000000000, 0x0000000000000002, 0x0304050000000000, 0x0000000000000000, 0x0000000500000000, 0x0000000000000104, 0x0306000000000000, 0x0000000000000000, 
+	0x0000000500000000, 0x0105000000000303, 0x0000000000000006, 0x0207010000000000, 0x0000060102000000, 0x080300000000090a, 0x0000000000060702, 0x0402000000000000, 
+	0x0000020203000006, 0x080408020003090b, 0x0101000601040c04, 0x0000000000000000, 0x000001080b020000, 0x08040b090b0b0c0d, 0x0a0a090d0d0e0301, 0x0000010100000000, 
+	0x000005020d0a0300, 0x00030f1011121013, 0x0e14101315121607, 0x0202040900000000, 0x000000020f170d03, 0x02020c1018191a1b, 0x1c1d1d1e1a181f0a, 0x0308040c02000000, 
+	0x000000010910200c, 0x0b160d0e21222324, 0x252525251d1d2627, 0x1f0d0b0b0c060000, 0x0000000601092829, 0x2a1f1f112b2c2d2e, 0x2f30302f2e311d1d, 0x32330c0d1f010000, 
+	0x0000000000011f34, 0x353636372c38393a, 0x3b2d003b3c3d313e, 0x313f324041000000, 0x000000000006090c, 0x34422c2c2c2d4344, 0x2d2c2c2d44454631, 0x3e47481049000000, 
+	0x0000000000000616, 0x0c0d222c2c2d4a44, 0x4b2c2c4c443c2f46, 0x3e3e0e1f0c000000, 0x0000000000000000, 0x01010d4d4e2d3d4f, 0x4450515244535446, 0x3e550f1600000000, 
+	0x0000000000000000, 0x0000000856242d57, 0x58444444595a5b46, 0x3e5c0c1600000000, 0x0000000000000000, 0x000000000c5d5e2d, 0x5f30606162616364, 0x65660c0c0c000000, 
+	0x0000000000000000, 0x0000000000000055, 0x6768696a6b6c656d, 0x2700011616000000, 0x0000000000000000, 0x0000000000000000, 0x006e6f7071727313, 0x1100000000000000, 
+	0x0000000000000000, 0x0000000000000000, 0x0000000974171716, 0x0400000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	
+};
+
+u64 object_mask_bree_DL_0003C0_mesh_tex_000858_ci8_png_002_pal_rgba16[] = {
+	0xffffef7be739def7, 0xd6b5ef7df7bde73b, 0xdef9c631ce75ce73, 0xadadbdf194a7a56b, 0x8c63946394a58421, 0x946583e1d6f7a4e7, 0x6b195ad739cf41cf, 0x18c7104320c7ad6b, 
+	0xa5295253318d1085, 0x28434041514b72d7, 0x8ca5635b7c212909, 0x0001404360438885, 0xc085384359cf835b, 0x846331cf2109294b, 0x30416883b145f8c7, 0xd1c5990530014909, 
+	0x7b19ad2942119105, 0xfb07c9c578434085, 0x62539ce7b9c58183, 0x508318852043e207, 0xa1c540c17943d9c5, 0x9085494b3109c945, 0xea47e1c7b8859043, 0x6a95418d38c7b085, 
+	0xc885d085c8c78001, 0x4885621173195109, 0x590961098909b909, 0x814b6a53729769cf, 0x79cf821182957ad9, 0xa463000000000000
+};
+
+u64 object_mask_bree_DL_0003C0_mesh_tex_000C58_ci8_png_002_ci8[] = {
+	0x0000010203040506, 0x0708090a0a0a0a0a, 0x00000b0c0d0e0f10, 0x11090a0a0a0a0a0a, 0x0000000112131415, 0x11090a0a0a0a0a0a, 0x000000161718191a, 0x1b10090a0a0a0a0a, 
+	0x000000010d1c191a, 0x1d1e1f09090a0a0a, 0x000000200d182122, 0x0f152311110a0a0a, 0x000000020d242515, 0x06071109090a0a0a, 0x0000002627281821, 0x051f08090a0a0a0a, 
+	0x0000000c120d292a, 0x142b2c09090a0a0a, 0x000000012d2d2e2f, 0x2f3031230a0a0a0a, 0x0000000b3233340f, 0x15150505060a0a0a, 0x0000000b20333504, 0x361f0807070a0a0a, 
+	0x0000000b20370304, 0x06110a0a0a0a0a0a, 0x00000c0b0c0c3821, 0x0407090a0a0a0a0a, 0x0001273916393a3b, 0x0f0611090a0a0a0a, 0x000b273c3d35043e, 0x3f0611090a0a0a0a, 
+	
+};
+
+u64 object_mask_bree_DL_0003C0_mesh_tex_000C58_ci8_png_002_pal_rgba16[] = {
+	0xf7c5e785cec3a54d, 0xbde5c631d6b5e739, 0xe73bf7bdffffef85, 0xe745be0394c5bde7, 0xd6f7ef7bc6839501, 0x8c81bdf1efc5df03, 0x9d43848173c1a529, 0xa5419d1dadaddef9, 
+	0xdf4594cdada1ce75, 0xad83a555d6c5c643, 0xb603b5c394c194a7, 0xce73ce85ad8bad93, 0x94e594e7d6c3be0d, 0xb5dfb5dddef7ce83, 0xa545d703b5c194cb, 0xadc1c64d7c016bc1, 
+	
+};
+
+u64 object_mask_bree_DL_0003C0_mesh_tex_000D58_ci8_png_002_ci8[] = {
+	0x0000000000000000, 0x0000010203040000, 0x0005060708090100, 0x000a090808090100, 0x000b070c0d0e0000, 0x000f09100a050000, 0x000e0b1105000000, 0x0000000000000000, 
+	
+};
+
+u64 object_mask_bree_DL_0003C0_mesh_tex_000D58_ci8_png_002_pal_rgba16[] = {
+	0xf7c5e74573835b01, 0xad83efc594c33181, 0x29414a81df05be03, 0x31c16b43ce85b5c3, 0x7c03d6c300000000
+};
+
+u64 object_mask_bree_DL_0003C0_mesh_tex_000D98_rgba16_png_002_rgba16[] = {
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xfffffffff7bdf7bd, 0xf7bdf7bdef7def7b, 0xe73bdef9ef7def7d, 0xf7bdf7bdffffffff, 
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffefbfdf3dc677, 0x9d2f6ba06ba06ba0, 
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xfffffffffffff7bd, 0xfffff7bdef7bef7b, 0xef7bef7be739e739, 0xe739f7bdfffff7bd, 0xf7bdf7bdf7bdf7ff, 
@@ -70,68 +120,186 @@ u64 object_mask_bree_DL_0003C0_mesh_tex_000D98_rgba16_png_001_rgba16[] = {
 };
 
 Vtx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_cull[8] = {
-	{{ {-962, -1226, -909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-962, -1226, 909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-962, -89, 909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-962, -89, -909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {641, -1226, -909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {641, -1226, 909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {641, -89, 909}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {641, -89, -909}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-89, -825, -924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-89, -825, 924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-89, 115, 924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-89, 115, -924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {1054, -825, -924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {1054, -825, 924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {1054, 115, 924}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {1054, 115, -924}, 0, {0, 0}, {0, 0, 0, 0} }},
 };
 
-Vtx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_0[36] = {
-	{{ {101, -452, 748}, 0, {344, 158}, {49, 23, 115, 255} }},
-	{{ {132, -220, 475}, 0, {419, 983}, {31, 62, 107, 255} }},
-	{{ {-755, -89, 631}, 0, {2278, 1183}, {22, 83, 94, 255} }},
-	{{ {-962, -1226, 631}, 0, {1964, -127}, {37, 189, 101, 255} }},
-	{{ {641, -610, 272}, 0, {-318, 208}, {78, 205, 86, 255} }},
-	{{ {101, -452, 748}, 0, {740, 896}, {49, 23, 115, 255} }},
-	{{ {101, -452, 748}, 0, {740, 896}, {49, 23, 115, 255} }},
-	{{ {-769, -488, 909}, 0, {2057, 1154}, {22, 13, 124, 255} }},
-	{{ {-962, -1226, 631}, 0, {1964, -127}, {37, 189, 101, 255} }},
-	{{ {-755, -89, 631}, 0, {2278, 1183}, {22, 83, 94, 255} }},
-	{{ {-769, -488, 909}, 0, {2048, 0}, {22, 13, 124, 255} }},
-	{{ {101, -452, 748}, 0, {344, 158}, {49, 23, 115, 255} }},
-	{{ {101, -452, -748}, 0, {344, 158}, {49, 23, 141, 255} }},
-	{{ {-769, -488, -909}, 0, {2048, 0}, {22, 13, 132, 255} }},
-	{{ {-755, -89, -631}, 0, {2278, 1183}, {22, 83, 162, 255} }},
-	{{ {-962, -1226, -631}, 0, {1964, -127}, {37, 189, 155, 255} }},
-	{{ {-769, -488, -909}, 0, {2057, 1154}, {22, 13, 132, 255} }},
-	{{ {101, -452, -748}, 0, {740, 896}, {49, 23, 141, 255} }},
-	{{ {101, -452, -748}, 0, {740, 896}, {49, 23, 141, 255} }},
-	{{ {641, -610, -272}, 0, {-318, 208}, {78, 205, 170, 255} }},
-	{{ {-962, -1226, -631}, 0, {1964, -127}, {37, 189, 155, 255} }},
-	{{ {-755, -89, -631}, 0, {2278, 1183}, {22, 83, 162, 255} }},
-	{{ {132, -220, -475}, 0, {419, 983}, {31, 62, 149, 255} }},
-	{{ {101, -452, -748}, 0, {344, 158}, {49, 23, 141, 255} }},
-	{{ {641, -610, 272}, 0, {-318, 208}, {78, 205, 86, 255} }},
-	{{ {459, -350, 447}, 0, {109, 768}, {62, 22, 109, 255} }},
-	{{ {101, -452, 748}, 0, {740, 896}, {49, 23, 115, 255} }},
-	{{ {101, -452, 748}, 0, {344, 158}, {49, 23, 115, 255} }},
-	{{ {459, -350, 447}, 0, {-322, 701}, {62, 22, 109, 255} }},
-	{{ {132, -220, 475}, 0, {419, 983}, {31, 62, 107, 255} }},
-	{{ {101, -452, -748}, 0, {740, 896}, {49, 23, 141, 255} }},
-	{{ {459, -350, -447}, 0, {109, 768}, {62, 22, 147, 255} }},
-	{{ {641, -610, -272}, 0, {-318, 208}, {78, 205, 170, 255} }},
-	{{ {132, -220, -475}, 0, {419, 983}, {31, 62, 149, 255} }},
-	{{ {459, -350, -447}, 0, {-322, 701}, {62, 22, 147, 255} }},
-	{{ {101, -452, -748}, 0, {344, 158}, {49, 23, 141, 255} }},
+Vtx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_0[20] = {
+	{{ {533, -68, -389}, 0, {0, 1024}, {25, 58, 146, 255} }},
+	{{ {525, -243, -454}, 0, {0, 1024}, {67, 18, 150, 255} }},
+	{{ {310, -164, -483}, 0, {0, 1024}, {22, 53, 143, 255} }},
+	{{ {644, -179, -298}, 0, {0, 1024}, {81, 20, 160, 255} }},
+	{{ {310, -164, 483}, 0, {0, 1024}, {22, 53, 113, 255} }},
+	{{ {525, -243, 454}, 0, {0, 1024}, {68, 18, 106, 255} }},
+	{{ {533, -68, 389}, 0, {0, 1024}, {25, 58, 110, 255} }},
+	{{ {644, -179, 298}, 0, {0, 1024}, {81, 20, 96, 255} }},
+	{{ {644, -179, 298}, 0, {1008, 1113}, {81, 20, 96, 255} }},
+	{{ {525, -243, 454}, 0, {1615, 819}, {68, 18, 106, 255} }},
+	{{ {821, -365, 290}, 0, {846, 411}, {112, 248, 60, 255} }},
+	{{ {707, -559, 277}, 0, {920, 47}, {78, 215, 91, 255} }},
+	{{ {787, -569, 0}, 0, {21, -31}, {104, 183, 0, 255} }},
+	{{ {889, -360, 0}, 0, {-98, 363}, {118, 208, 252, 255} }},
+	{{ {821, -365, -290}, 0, {846, 411}, {112, 248, 196, 255} }},
+	{{ {707, -559, -277}, 0, {920, 47}, {78, 215, 165, 255} }},
+	{{ {525, -243, -454}, 0, {1615, 819}, {67, 18, 150, 255} }},
+	{{ {644, -179, -298}, 0, {1008, 1113}, {81, 20, 160, 255} }},
+	{{ {846, -275, -167}, 0, {541, 711}, {70, 224, 155, 255} }},
+	{{ {846, -275, 167}, 0, {541, 711}, {70, 224, 101, 255} }},
 };
 
 Gfx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_0 + 0, 30, 0),
-	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
-	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
-	gsSP2Triangles(12, 13, 14, 0, 15, 16, 17, 0),
-	gsSP2Triangles(18, 19, 20, 0, 21, 22, 23, 0),
-	gsSP2Triangles(24, 25, 26, 0, 27, 28, 29, 0),
-	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_0 + 30, 6, 0),
-	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_0 + 0, 20, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(4, 5, 6, 0, 5, 7, 6, 0),
+	gsSP2Triangles(8, 9, 10, 0, 9, 11, 10, 0),
+	gsSP2Triangles(12, 10, 11, 0, 10, 12, 13, 0),
+	gsSP2Triangles(13, 12, 14, 0, 15, 14, 12, 0),
+	gsSP2Triangles(14, 15, 16, 0, 14, 16, 17, 0),
+	gsSP2Triangles(17, 18, 14, 0, 14, 18, 13, 0),
+	gsSP2Triangles(13, 19, 10, 0, 10, 19, 8, 0),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_500_layerOpaque[] = {
+Vtx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_1[16] = {
+	{{ {908, -135, 164}, 0, {-48, 248}, {85, 246, 94, 255} }},
+	{{ {644, -179, 298}, 0, {482, 535}, {81, 20, 96, 255} }},
+	{{ {846, -275, 167}, 0, {422, 56}, {70, 224, 101, 255} }},
+	{{ {1028, -335, 0}, 0, {-53, -478}, {121, 218, 6, 255} }},
+	{{ {889, -360, 0}, 0, {381, -444}, {118, 208, 252, 255} }},
+	{{ {846, -275, -167}, 0, {422, 56}, {70, 224, 155, 255} }},
+	{{ {908, -135, -164}, 0, {-48, 248}, {85, 246, 162, 255} }},
+	{{ {644, -179, -298}, 0, {482, 535}, {81, 20, 160, 255} }},
+	{{ {533, -68, 389}, 0, {278, -134}, {25, 58, 110, 255} }},
+	{{ {603, 115, 369}, 0, {-116, -48}, {16, 7, 126, 255} }},
+	{{ {338, 46, 408}, 0, {197, 499}, {253, 251, 127, 255} }},
+	{{ {310, -164, 483}, 0, {676, 590}, {22, 53, 113, 255} }},
+	{{ {338, 46, -408}, 0, {197, 499}, {253, 251, 129, 255} }},
+	{{ {603, 115, -369}, 0, {-116, -48}, {16, 7, 130, 255} }},
+	{{ {533, -68, -389}, 0, {278, -134}, {25, 58, 146, 255} }},
+	{{ {310, -164, -483}, 0, {676, 590}, {22, 53, 143, 255} }},
+};
+
+Gfx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_1 + 0, 16, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
+	gsSP2Triangles(2, 4, 3, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 3, 5, 0, 5, 7, 6, 0),
+	gsSP2Triangles(8, 9, 10, 0, 10, 11, 8, 0),
+	gsSP2Triangles(12, 13, 14, 0, 14, 15, 12, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_2[4] = {
+	{{ {1028, -335, 0}, 0, {-126, -469}, {121, 218, 6, 255} }},
+	{{ {1054, -46, 0}, 0, {-83, 265}, {110, 193, 0, 255} }},
+	{{ {908, -135, 164}, 0, {834, 296}, {85, 246, 94, 255} }},
+	{{ {908, -135, -164}, 0, {834, 296}, {85, 246, 162, 255} }},
+};
+
+Gfx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_2 + 0, 4, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_3[20] = {
+	{{ {279, -452, 760}, 0, {740, 896}, {51, 8, 116, 255} }},
+	{{ {104, -488, 924}, 0, {2057, 1154}, {72, 248, 104, 255} }},
+	{{ {-89, -825, 641}, 0, {1964, -127}, {91, 182, 48, 255} }},
+	{{ {707, -559, 277}, 0, {-318, 208}, {78, 215, 91, 255} }},
+	{{ {525, -243, 454}, 0, {109, 768}, {68, 18, 106, 255} }},
+	{{ {118, -89, 641}, 0, {2278, 1183}, {74, 59, 84, 255} }},
+	{{ {104, -488, 924}, 0, {2048, 0}, {72, 248, 104, 255} }},
+	{{ {279, -452, 760}, 0, {344, 158}, {51, 8, 116, 255} }},
+	{{ {310, -164, 483}, 0, {419, 983}, {22, 53, 113, 255} }},
+	{{ {525, -243, 454}, 0, {-322, 701}, {68, 18, 106, 255} }},
+	{{ {279, -452, -760}, 0, {344, 158}, {56, 18, 143, 255} }},
+	{{ {104, -488, -924}, 0, {2048, 0}, {72, 248, 152, 255} }},
+	{{ {118, -89, -641}, 0, {2278, 1183}, {74, 59, 172, 255} }},
+	{{ {310, -164, -483}, 0, {419, 983}, {22, 53, 143, 255} }},
+	{{ {525, -243, -454}, 0, {-322, 701}, {67, 18, 150, 255} }},
+	{{ {-89, -825, -641}, 0, {1964, -127}, {91, 182, 208, 255} }},
+	{{ {104, -488, -924}, 0, {2057, 1154}, {72, 248, 152, 255} }},
+	{{ {279, -452, -760}, 0, {740, 896}, {56, 18, 143, 255} }},
+	{{ {707, -559, -277}, 0, {-318, 208}, {78, 215, 165, 255} }},
+	{{ {525, -243, -454}, 0, {109, 768}, {67, 18, 150, 255} }},
+};
+
+Gfx object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_3[] = {
+	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_3 + 0, 20, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
+	gsSP2Triangles(3, 4, 0, 0, 5, 6, 7, 0),
+	gsSP2Triangles(7, 8, 5, 0, 7, 9, 8, 0),
+	gsSP2Triangles(10, 11, 12, 0, 12, 13, 10, 0),
+	gsSP2Triangles(13, 14, 10, 0, 15, 16, 17, 0),
+	gsSP2Triangles(17, 18, 15, 0, 17, 19, 18, 0),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_408_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_RGBA16 | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, object_mask_bree_DL_0003C0_mesh_tex_000858_ci8_png_002_pal_rgba16),
+	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadTLUTCmd(5, 116),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, object_mask_bree_DL_0003C0_mesh_tex_000858_ci8_png_002_ci8),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 511, 512),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_409_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_RGBA16 | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, object_mask_bree_DL_0003C0_mesh_tex_000C58_ci8_png_002_pal_rgba16),
+	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadTLUTCmd(5, 63),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, object_mask_bree_DL_0003C0_mesh_tex_000C58_ci8_png_002_ci8),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 127, 1024),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0),
+	gsDPSetTileSize(0, 0, 0, 60, 60),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_410_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_RGBA16 | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, object_mask_bree_DL_0003C0_mesh_tex_000D58_ci8_png_002_pal_rgba16),
+	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadTLUTCmd(5, 17),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, object_mask_bree_DL_0003C0_mesh_tex_000D58_ci8_png_002_ci8),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 31, 2048),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 1, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0),
+	gsDPSetTileSize(0, 0, 0, 28, 28),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_411_layerOpaque[] = {
 	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, 0, 0, 0, COMBINED),
@@ -139,7 +307,7 @@ Gfx mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_500_layerOpaque[] = {
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_TEX_EDGE2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, object_mask_bree_DL_0003C0_mesh_tex_000D98_rgba16_png_001_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, object_mask_bree_DL_0003C0_mesh_tex_000D98_rgba16_png_002_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
@@ -152,8 +320,14 @@ Gfx object_mask_bree_DL_0003C0_mesh[] = {
 	gsSPVertex(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_500_layerOpaque),
+	gsSPDisplayList(mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_408_layerOpaque),
 	gsSPDisplayList(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_409_layerOpaque),
+	gsSPDisplayList(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_410_layerOpaque),
+	gsSPDisplayList(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_object_mask_bree_DL_0003C0_mesh_f3dlite_material_411_layerOpaque),
+	gsSPDisplayList(object_mask_bree_DL_0003C0_mesh_object_mask_bree_DL_0003C0_mesh_mesh_layer_Opaque_tri_3),
 	gsSPEndDisplayList(),
 };
 

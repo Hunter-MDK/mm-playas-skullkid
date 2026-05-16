@@ -1,19 +1,14 @@
 # Play as Skullkid
-![image](https://i.imgur.com/TQhd5F1.png)
-### Compatibility
-* Should be compatible with all texture packs, it uses the textures from object_stk and uses very similar UV's
-* As far as other mods that mess with display lists: No idea lol, let me know if something breaks
+![image](https://i.imgur.com/xj2xQsN.png)
+### Big changes
 
-### Changes
-* Replaces Link and his elegy statue with Skullkid
-* Replaces both shields with a transparent alternative
-* Replaces the Ocarina model with Skullkid's flute
+* Skullkid no longer wears majoras mask, and instead uses it as a shield. 
+* Many masks have been altered to better fit his model as it differs heavily from Link's
+* The first person viewmodels have been improved
+* Certain animations, (Ocarina playing/bremen march) have been modified to reduce clipping
 
-### Masks
-* Most masks decently fit, the bunny hood and great fairy mask look pretty busted
-* Garo and All-Night masks don't fit well: will likely be fixed in the future
+Sometime in the future I plan to patch in support for YAZMT's player model manager, give or take a year and I may get around to that.
 
-Special thanks to the [Play As CJ mod](https://thunderstore.io/c/zelda-64-recompiled/p/Reonu/Play_as_CJ/) for having very stealable code. :)
 
 
 

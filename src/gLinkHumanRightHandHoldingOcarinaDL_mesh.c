@@ -1,32 +1,6 @@
 #include "ultra64.h"
 #include "global.h"
 
-u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_rgba16_png_004_rgba16[] = {
-	0xfe17fed9fd55ff1b, 0xccd5ff59a393dd15, 0xf617fed9fd95ff1b, 0xccd5ff19abd3dd15, 0xedd5fed9fe15ff1b, 0xccd5fed7c413ed55, 0xf6d5fed9fed5ff19, 0xccd5fe57dc95f5d5, 
-	0xff97fe99ff97fed9, 0xccd5fe15ed55fe55, 0xff97f659ff97fe97, 0xc4d5fe57fe15fe57, 0xff97e597ff97fe97, 0xc4d5fe97fe15f615, 0xff97ccd5ff97ff19, 0xc4d5ff1bfd55ed55, 
-	
-};
-
-u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_hole_ia16_png_004_ia16[] = {
-	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x00ff00ff00ff00ff, 0x0000000000000000, 0x0000000000000000, 
-	0x0000000000ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00000000, 0x0000000000000000, 0x000000ff00ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00ff0000, 0x0000000000000000, 
-	0x000000ff00ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00ff0000, 0x0000000000000000, 0x0000000000ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00000000, 0x0000000000000000, 
-	0x0000000000000000, 0x00ff00ff00ff00ff, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
-	
-};
-
-u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_pants_and_wrists_rgba16_png_003_rgba16[] = {
-	0x4201420142014201, 0x4201420142014201, 0x4201420142014201, 0x4201420142014201, 0x4241420142014201, 0x4a4142414a414a41, 0x4a414a414a414241, 0x42014a414a414241, 
-	0x4a414a4142414a41, 0x52c15ac15ac15ac1, 0x5b015ac152c14a81, 0x424152c152c14a81, 0x5ac1528152815281, 0x630163016b416b81, 0x6b41634163015ac1, 0x4a41528152c152c1, 
-	0x738163415b016301, 0x6b816b41738173c1, 0x73816b816b415b01, 0x52c163016b416b81, 0x7c016b4163016b41, 0x7bc17bc184018441, 0x84017bc16b816b41, 0x63016b4173c17c01, 
-	0x84416b816b417381, 0x84018c819d019d01, 0xa5018c4173817381, 0x6b417bc184418c41, 0x8c4173816b417381, 0x84018c81a541ad81, 0xad8194c17bc17381, 0x7c018c4194c19cc1, 
-	0x94c17bc16b8173c1, 0x84018c81a541b5c1, 0xb5c19d0184017381, 0x840194819d01a501, 0xa5417bc16b817bc1, 0x84018c81a501be01, 0xbdc1a54184416b81, 0x7c019cc1ad41a541, 
-	0xb58184016b817c01, 0x8c418c81a541c641, 0xc601ad8184016b81, 0x7bc1a501b581b581, 0xc60184016b817c01, 0x84418c41a541ce81, 0xce41b5c17c016b41, 0x73c1ad41bdc1b5c1, 
-	0xce817bc163017bc1, 0x8401844094c0ad40, 0xbdc1b58173c16301, 0x7381ad81c641c641, 0xd701738142006300, 0x73807bc06b409cc0, 0x9cc094c05ac052c1, 0x6b81b581c641ce81, 
-	0xa5008c40528020c0, 0x20c0290052807bc0, 0x7bc04200294039c0, 0x7381ad81c641c641, 0x7c007bc07bc06300, 0x210021004a4073c0, 0x73c039c020c03180, 0x7bc094809cc094c0, 
-	
-};
-
 u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_hand_rgba16_png_003_rgba16[] = {
 	0x82c35a4572836a83, 0x39015a43728372c3, 0x204172437b0528c1, 0x7283824310416203, 0x82c35a4572836a83, 0x39015a4362438303, 0x20416a0372c528c1, 0x728371c310416203, 
 	0x7ac35a4572836a43, 0x39015a4349c36a43, 0x204159c3624328c1, 0x62435983188159c3, 0x72835a457ac37245, 0x39015a4349835a03, 0x204149835a0330c1, 0x5a03494120c14981, 
@@ -47,115 +21,59 @@ u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_hand_rgba16_png_003_rgba1
 	
 };
 
+u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_rgba16_png_002_rgba16[] = {
+	0xfe17fed9fd55ff1b, 0xccd5ff59a393dd15, 0xf617fed9fd95ff1b, 0xccd5ff19abd3dd15, 0xedd5fed9fe15ff1b, 0xccd5fed7c413ed55, 0xf6d5fed9fed5ff19, 0xccd5fe57dc95f5d5, 
+	0xff97fe99ff97fed9, 0xccd5fe15ed55fe55, 0xff97f659ff97fe97, 0xc4d5fe57fe15fe57, 0xff97e597ff97fe97, 0xc4d5fe97fe15f615, 0xff97ccd5ff97ff19, 0xc4d5ff1bfd55ed55, 
+	
+};
+
+u64 gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_hole_ia16_png_002_ia16[] = {
+	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x00ff00ff00ff00ff, 0x0000000000000000, 0x0000000000000000, 
+	0x0000000000ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00000000, 0x0000000000000000, 0x000000ff00ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00ff0000, 0x0000000000000000, 
+	0x000000ff00ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00ff0000, 0x0000000000000000, 0x0000000000ff00ff, 0x00ff00ff00ff00ff, 0x00ff00ff00000000, 0x0000000000000000, 
+	0x0000000000000000, 0x00ff00ff00ff00ff, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 
+	
+};
+
 Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_cull[8] = {
-	{{ {-2419, -574, -933}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-2419, -574, -208}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-2419, 794, -208}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-2419, 794, -933}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {143, -574, -933}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {143, -574, -208}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {143, 794, -208}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {143, 794, -933}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1363, -24, -259}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1363, -24, 213}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1363, 1036, 213}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1363, 1036, -259}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {599, -24, -259}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {599, -24, 213}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {599, 1036, 213}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {599, 1036, -259}, 0, {0, 0}, {0, 0, 0, 0} }},
 };
 
 Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_0[23] = {
-	{{ {-2419, 629, -819}, 0, {7, -24}, {193, 15, 147, 255} }},
-	{{ {-2417, 650, -627}, 0, {285, -24}, {174, 184, 64, 255} }},
-	{{ {-2380, 794, -724}, 0, {193, -24}, {219, 111, 49, 255} }},
-	{{ {-2380, 794, -724}, 0, {193, -24}, {219, 111, 49, 255} }},
-	{{ {-2417, 650, -627}, 0, {285, -24}, {174, 184, 64, 255} }},
-	{{ {105, 26, -586}, 0, {290, 908}, {60, 247, 112, 255} }},
-	{{ {105, 26, -586}, 0, {290, 908}, {60, 247, 112, 255} }},
-	{{ {-2417, 650, -627}, 0, {285, -24}, {174, 184, 64, 255} }},
-	{{ {103, 4, -786}, 0, {0, 908}, {41, 143, 214, 255} }},
-	{{ {105, 26, -586}, 0, {290, 908}, {60, 247, 112, 255} }},
-	{{ {103, 4, -786}, 0, {0, 908}, {41, 143, 214, 255} }},
-	{{ {143, 174, -686}, 0, {196, 908}, {84, 78, 201, 255} }},
-	{{ {143, 174, -686}, 0, {196, 908}, {84, 78, 201, 255} }},
-	{{ {-2419, 629, -819}, 0, {7, -24}, {193, 14, 147, 255} }},
-	{{ {-2419, 629, -819}, 0, {7, -24}, {193, 15, 147, 255} }},
-	{{ {103, 4, -786}, 0, {0, 908}, {41, 143, 214, 255} }},
-	{{ {-2417, 650, -627}, 0, {285, -24}, {174, 184, 64, 255} }},
-	{{ {143, 174, -686}, 0, {196, 908}, {84, 78, 201, 255} }},
-	{{ {-2419, 629, -819}, 0, {7, -24}, {193, 14, 147, 255} }},
-	{{ {-2380, 794, -724}, 0, {193, -24}, {219, 111, 49, 255} }},
-	{{ {143, 174, -686}, 0, {196, 908}, {84, 78, 201, 255} }},
-	{{ {-2380, 794, -724}, 0, {193, -24}, {219, 111, 49, 255} }},
-	{{ {105, 26, -586}, 0, {290, 908}, {60, 247, 112, 255} }},
+	{{ {18, 456, -243}, 0, {518, 341}, {156, 69, 220, 255} }},
+	{{ {-44, 469, -128}, 0, {536, 436}, {23, 124, 11, 255} }},
+	{{ {129, 695, -145}, 0, {518, -96}, {187, 8, 150, 255} }},
+	{{ {-173, 327, -54}, 0, {536, 704}, {19, 7, 125, 255} }},
+	{{ {-101, 241, -259}, 0, {500, 805}, {143, 202, 235, 255} }},
+	{{ {342, 226, -168}, 0, {138, 347}, {56, 150, 42, 255} }},
+	{{ {428, 545, -65}, 0, {197, -187}, {41, 224, 116, 255} }},
+	{{ {96, 657, -93}, 0, {507, -1}, {253, 127, 249, 255} }},
+	{{ {253, 162, -22}, 0, {126, 498}, {76, 155, 243, 255} }},
+	{{ {77, 211, 6}, 0, {273, 613}, {59, 46, 103, 255} }},
+	{{ {-191, 136, -48}, 0, {448, 1020}, {7, 4, 127, 255} }},
+	{{ {-58, 10, -178}, 0, {325, 1024}, {135, 218, 242, 255} }},
+	{{ {190, -24, -107}, 0, {80, 809}, {105, 19, 187, 255} }},
+	{{ {394, 503, -15}, 0, {185, -85}, {49, 156, 60, 255} }},
+	{{ {238, -14, 74}, 0, {39, 765}, {191, 148, 12, 255} }},
+	{{ {308, 186, 98}, 0, {39, 449}, {193, 235, 148, 255} }},
+	{{ {240, 205, 171}, 0, {98, 516}, {246, 117, 49, 255} }},
+	{{ {175, 78, 122}, 0, {141, 738}, {1, 242, 126, 255} }},
+	{{ {-1, -4, 24}, 0, {214, 1033}, {44, 139, 22, 255} }},
+	{{ {355, 120, 213}, 0, {-19, 522}, {235, 132, 236, 255} }},
+	{{ {458, 289, 57}, 0, {39, 254}, {0, 115, 53, 255} }},
+	{{ {328, 308, 22}, 0, {156, 272}, {133, 228, 18, 255} }},
+	{{ {384, 326, 110}, 0, {97, 230}, {199, 94, 192, 255} }},
 };
 
 Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_0[] = {
 	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_0 + 0, 23, 0),
-	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
-	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
-	gsSP2Triangles(12, 10, 13, 0, 14, 15, 16, 0),
-	gsSP2Triangles(17, 18, 19, 0, 20, 21, 22, 0),
-	gsSPEndDisplayList(),
-};
-
-Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_1[5] = {
-	{{ {-186, 268, -714}, 0, {1929, 256}, {17, 60, 146, 255} }},
-	{{ {-1319, 370, -828}, 0, {-769, -49}, {17, 60, 146, 255} }},
-	{{ {-1279, 534, -732}, 0, {-768, 256}, {17, 60, 146, 255} }},
-	{{ {-186, 268, -714}, 0, {1929, 256}, {17, 60, 146, 255} }},
-	{{ {-226, 98, -814}, 0, {1928, -63}, {17, 60, 146, 255} }},
-};
-
-Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_1 + 0, 5, 0),
-	gsSP2Triangles(0, 1, 2, 0, 1, 3, 4, 0),
-	gsSPEndDisplayList(),
-};
-
-Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_2[9] = {
-	{{ {-460, -574, -326}, 0, {298, 519}, {232, 139, 43, 255} }},
-	{{ {-605, -311, -566}, 0, {219, 29}, {3, 73, 152, 255} }},
-	{{ {-296, -543, -524}, 0, {16, 513}, {52, 157, 197, 255} }},
-	{{ {-535, -151, -403}, 0, {496, 20}, {209, 203, 106, 255} }},
-	{{ {-322, -381, -208}, 0, {500, 511}, {54, 227, 111, 255} }},
-	{{ {-152, -359, -428}, 0, {726, 507}, {126, 237, 2, 255} }},
-	{{ {-430, -186, -628}, 0, {823, 17}, {126, 6, 240, 255} }},
-	{{ {-296, -543, -524}, 0, {1040, 513}, {52, 157, 197, 255} }},
-	{{ {-605, -311, -566}, 0, {1243, 29}, {3, 73, 152, 255} }},
-};
-
-Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_2 + 0, 9, 0),
-	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
-	gsSP2Triangles(0, 4, 3, 0, 5, 3, 4, 0),
-	gsSP2Triangles(5, 6, 3, 0, 7, 6, 5, 0),
-	gsSP2Triangles(7, 8, 6, 0, 6, 8, 3, 0),
-	gsSPEndDisplayList(),
-};
-
-Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_3[23] = {
-	{{ {-640, 102, -868}, 0, {518, 341}, {151, 72, 255, 255} }},
-	{{ {-630, 161, -755}, 0, {536, 436}, {16, 123, 229, 255} }},
-	{{ {-501, 370, -883}, 0, {518, -96}, {146, 238, 195, 255} }},
-	{{ {-677, 72, -583}, 0, {536, 704}, {84, 51, 81, 255} }},
-	{{ {-717, -86, -741}, 0, {500, 805}, {158, 209, 66, 255} }},
-	{{ {-310, -108, -907}, 0, {138, 347}, {86, 170, 35, 255} }},
-	{{ {-199, 236, -933}, 0, {197, -187}, {96, 10, 83, 255} }},
-	{{ {-494, 358, -814}, 0, {507, -1}, {229, 118, 216, 255} }},
-	{{ {-296, -105, -731}, 0, {126, 498}, {52, 140, 1, 255} }},
-	{{ {-429, -35, -633}, 0, {273, 613}, {92, 84, 26, 255} }},
-	{{ {-663, -97, -502}, 0, {448, 1020}, {74, 50, 90, 255} }},
-	{{ {-610, -268, -625}, 0, {325, 1024}, {154, 228, 70, 255} }},
-	{{ {-369, -297, -694}, 0, {80, 809}, {54, 241, 142, 255} }},
-	{{ {-194, 219, -864}, 0, {185, -85}, {84, 172, 45, 255} }},
-	{{ {-276, -207, -572}, 0, {39, 765}, {223, 173, 90, 255} }},
-	{{ {-192, -46, -680}, 0, {39, 449}, {169, 192, 189, 255} }},
-	{{ {-250, 24, -579}, 0, {98, 516}, {8, 125, 23, 255} }},
-	{{ {-312, -101, -535}, 0, {141, 738}, {62, 41, 103, 255} }},
-	{{ {-455, -214, -503}, 0, {214, 1033}, {61, 149, 31, 255} }},
-	{{ {-125, -46, -580}, 0, {-19, 522}, {241, 139, 48, 255} }},
-	{{ {-131, 71, -752}, 0, {39, 254}, {8, 125, 19, 255} }},
-	{{ {-257, 88, -714}, 0, {156, 272}, {167, 231, 87, 255} }},
-	{{ {-167, 130, -687}, 0, {97, 230}, {155, 71, 225, 255} }},
-};
-
-Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_3[] = {
-	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_3 + 0, 23, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(4, 3, 0, 0, 5, 4, 0, 0),
 	gsSP2Triangles(6, 5, 0, 0, 2, 6, 0, 0),
@@ -180,54 +98,54 @@ Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_455_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_CULL_BACK | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
-	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, COMBINED, 0, ENVIRONMENT, 0),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_NONE | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2),
-	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_rgba16_png_004_rgba16),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 63, 1024),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_WRAP | G_TX_NOMIRROR, 3, 0),
-	gsDPSetTileSize(0, 0, 0, 28, 28),
-	gsSPDisplayList(0xC000000),
+Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_1[24] = {
+	{{ {-1318, 1036, 11}, 0, {7, -24}, {137, 44, 2, 255} }},
+	{{ {-1363, 912, 89}, 0, {285, -24}, {137, 44, 2, 255} }},
+	{{ {-1321, 1022, 164}, 0, {193, -24}, {137, 44, 2, 255} }},
+	{{ {-1321, 1022, 164}, 0, {193, -24}, {234, 191, 107, 255} }},
+	{{ {-1363, 912, 89}, 0, {285, -24}, {234, 191, 107, 255} }},
+	{{ {553, 203, 59}, 0, {290, 908}, {234, 191, 107, 255} }},
+	{{ {553, 203, 59}, 0, {290, 908}, {232, 196, 146, 255} }},
+	{{ {-1363, 912, 89}, 0, {285, -24}, {232, 196, 146, 255} }},
+	{{ {599, 331, -21}, 0, {0, 908}, {232, 196, 146, 255} }},
+	{{ {553, 203, 59}, 0, {290, 908}, {119, 212, 254, 255} }},
+	{{ {599, 331, -21}, 0, {0, 908}, {119, 212, 254, 255} }},
+	{{ {596, 316, 136}, 0, {196, 908}, {119, 212, 254, 255} }},
+	{{ {596, 316, 136}, 0, {196, 908}, {44, 119, 12, 255} }},
+	{{ {599, 331, -21}, 0, {0, 908}, {44, 119, 12, 255} }},
+	{{ {-1318, 1036, 11}, 0, {7, -24}, {44, 119, 12, 255} }},
+	{{ {-1318, 1036, 11}, 0, {7, -24}, {232, 196, 146, 255} }},
+	{{ {599, 331, -21}, 0, {0, 908}, {232, 196, 146, 255} }},
+	{{ {-1363, 912, 89}, 0, {285, -24}, {232, 196, 146, 255} }},
+	{{ {596, 316, 136}, 0, {196, 908}, {44, 119, 12, 255} }},
+	{{ {-1318, 1036, 11}, 0, {7, -24}, {44, 119, 12, 255} }},
+	{{ {-1321, 1022, 164}, 0, {193, -24}, {44, 119, 12, 255} }},
+	{{ {596, 316, 136}, 0, {196, 908}, {234, 191, 107, 255} }},
+	{{ {-1321, 1022, 164}, 0, {193, -24}, {234, 191, 107, 255} }},
+	{{ {553, 203, 59}, 0, {290, 908}, {234, 191, 107, 255} }},
+};
+
+Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_1 + 0, 24, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
+	gsSP2Triangles(12, 13, 14, 0, 15, 16, 17, 0),
+	gsSP2Triangles(18, 19, 20, 0, 21, 22, 23, 0),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_456_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_CULL_BACK | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
-	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, COMBINED, 0, ENVIRONMENT, 0),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_NONE | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_ZB_XLU_SURF2),
-	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_hole_ia16_png_004_ia16),
-	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 127, 512),
-	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
-	gsDPSetTileSize(0, 0, 0, 60, 28),
-	gsSPDisplayList(0xC000000),
-	gsSPEndDisplayList(),
+Vtx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_2[6] = {
+	{{ {-478, 745, -3}, 0, {1929, 256}, {40, 120, 12, 255} }},
+	{{ {443, 425, 140}, 0, {-1038, -45}, {40, 120, 12, 255} }},
+	{{ {447, 439, -12}, 0, {-1037, 260}, {40, 120, 12, 255} }},
+	{{ {443, 425, 140}, 0, {-1038, -45}, {40, 120, 12, 255} }},
+	{{ {-478, 745, -3}, 0, {1929, 256}, {40, 120, 12, 255} }},
+	{{ {-481, 730, 155}, 0, {1928, -63}, {40, 120, 12, 255} }},
 };
 
-Gfx mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_414_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
-	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, COMBINED, 0, ENVIRONMENT, 0),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_NONE | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_TEX_EDGE2),
-	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_pants_and_wrists_rgba16_png_003_rgba16),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 255, 512),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
-	gsDPSetTileSize(0, 0, 0, 60, 60),
-	gsSPDisplayList(0xC000000),
+Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_2 + 0, 6, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSPEndDisplayList(),
 };
 
@@ -248,19 +166,49 @@ Gfx mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_422_layerOpaqu
 	gsSPEndDisplayList(),
 };
 
+Gfx mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_521_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_CULL_BACK | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, PRIMITIVE, 0, COMBINED, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_NONE | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 128, 255, 255, 255, 255),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_rgba16_png_002_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 63, 1024),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_WRAP | G_TX_NOMIRROR, 3, 0),
+	gsDPSetTileSize(0, 0, 0, 28, 28),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_522_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_FOG | G_LIGHTING | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_CD_MAGICSQ | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TT_NONE | G_TL_TILE | G_TD_CLAMP | G_TP_PERSP | G_CYC_2CYCLE | G_PM_NPRIMITIVE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_TEX_EDGE2),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
+	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanRightHandHoldingOcarinaDL_mesh_skull_kid_flute_hole_ia16_png_002_ia16),
+	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 127, 512),
+	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
+	gsDPSetTileSize(0, 0, 0, 60, 28),
+	gsSPEndDisplayList(),
+};
+
 Gfx gLinkHumanRightHandHoldingOcarinaDL_mesh[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_455_layerOpaque),
-	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_456_layerOpaque),
-	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_414_layerOpaque),
-	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_2),
 	gsSPDisplayList(mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_422_layerOpaque),
-	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_3),
+	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_521_layerOpaque),
+	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_gLinkHumanRightHandHoldingOcarinaDL_mesh_f3dlite_material_522_layerOpaque),
+	gsSPDisplayList(gLinkHumanRightHandHoldingOcarinaDL_mesh_gLinkHumanRightHandHoldingOcarinaDL_mesh_mesh_layer_Opaque_tri_2),
 	gsSPEndDisplayList(),
 };
 

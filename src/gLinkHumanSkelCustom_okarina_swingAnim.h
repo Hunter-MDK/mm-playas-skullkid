@@ -1,0 +1,1 @@
+extern LinkAnimationHeader gLinkHumanSkelCustom_okarina_swingAnim;

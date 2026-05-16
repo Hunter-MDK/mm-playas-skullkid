@@ -10,4 +10,5 @@
 ./funcs.h
 patches.map
 build/
+output/
 .vscode/settings.json

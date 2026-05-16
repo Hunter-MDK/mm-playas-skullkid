@@ -1,0 +1,1 @@
+extern LinkAnimationHeader gLinkHumanSkelLittle_boogie_loopAnim;

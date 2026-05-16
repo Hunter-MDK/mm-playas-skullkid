@@ -1,0 +1,7 @@
+extern u64 object_mir_ray_DL_000168_mesh_tex_0002F0_i4_png_002_i4[];
+extern u64 object_mir_ray_DL_000168_mesh_tex_000270_i4_png_002_i4[];
+extern Vtx object_mir_ray_DL_000168_mesh_object_mir_ray_DL_000168_mesh_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx object_mir_ray_DL_000168_mesh_object_mir_ray_DL_000168_mesh_mesh_layer_Transparent_vtx_0[22];
+extern Gfx object_mir_ray_DL_000168_mesh_object_mir_ray_DL_000168_mesh_mesh_layer_Transparent_tri_0[];
+extern Gfx mat_object_mir_ray_DL_000168_mesh_f3dlite_material_210_layerTransparent[];
+extern Gfx object_mir_ray_DL_000168_mesh[];
